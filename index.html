@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Maps</title>
+</head>
+<body>
+    <input type="text" id="inputField" placeholder="Type">
+    <img src="BC 3 - 7.png" alt="Keyboard" usemap="#keyboard-map" width="720"  height="285">
+
+    <map name="keyboard-map">
+        <area shape="rect" coords="6,44,60,94" href="javascript:void(0);" alt="Q" onclick="document.getElementById('inputField').value += 'Q'">
+        <area shape="rect" coords="66,44,120,94" href="javascript:void(0);" alt="W" onclick="document.getElementById('inputField').value += 'W'">
+        <area shape="rect" coords="126,44,180,94" href="javascript:void(0);" alt="E" onclick="document.getElementById('inputField').value += 'E'">
+        <area shape="rect" coords="186,44,240,94" href="javascript:void(0);" alt="R" onclick="document.getElementById('inputField').value += 'R'">
+        <area shape="rect" coords="246,44,300,94" href="javascript:void(0);" alt="T" onclick="document.getElementById('inputField').value += 'T'">
+        <area shape="rect" coords="306,44,360,94" href="javascript:void(0);" alt="Y" onclick="document.getElementById('inputField').value += 'Y'">
+        <area shape="rect" coords="398,44,453,94" href="javascript:void(0);" alt="U" onclick="document.getElementById('inputField').value += 'U'">
+        <area shape="rect" coords="464,44,518,94" href="javascript:void(0);" alt="I" onclick="document.getElementById('inputField').value += 'I'">
+        <area shape="rect" coords="528,44,584,94" href="javascript:void(0);" alt="O" onclick="document.getElementById('inputField').value += 'O'">
+        <area shape="rect" coords="592,44,650,94" href="javascript:void(0);" alt="P" onclick="document.getElementById('inputField').value += 'P'">
+        <area shape="rect" coords="660,44,715,94" href="javascript:void(0);" alt="backspace" onclick="var el=document.getElementById('inputField'); el.value = el.value.slice(0, -1);">
+        <area shape="rect" coords="32,105,87,157" href="javascript:void(0);" alt="A" onclick="document.getElementById('inputField').value += 'A'">
+        <area shape="rect" coords="97,105,151,157" href="javascript:void(0);" alt="S" onclick="document.getElementById('inputField').value += 'S'">
+        <area shape="rect" coords="161,105,215,157" href="javascript:void(0);" alt="D" onclick="document.getElementById('inputField').value += 'D'">
+        <area shape="rect" coords="226,105,280,157" href="javascript:void(0);" alt="F" onclick="document.getElementById('inputField').value += 'F'">
+        <area shape="rect" coords="290,105,345,157" href="javascript:void(0);" alt="G" onclick="document.getElementById('inputField').value += 'G'">
+        <area shape="rect" coords="355,105,410,157" href=" javascript:void(0);" alt="H" onclick="document.getElementById('inputField').value += 'H'">
+        <area shape="rect" coords="420,105,475,157" href="javascript:void(0);" alt="J" onclick="document.getElementById('inputField').value += 'J'">
+        <area shape="rect" coords="485,105,540,157" href="javascript:void(0);" alt="K" onclick="document.getElementById('inputField').value += 'K'">
+        <area shape="rect" coords="550,105,605,157" href="javascript:void(0);" alt="L" onclick="document.getElementById('inputField').value += 'L'">
+        <area shape="rect" coords="615,105,715,157" href="javascript:void(0);" alt="enter" onclick="document.getElementById('inputField').value += '\n'">
+        <area shape="rect" coords="6,165,60,218" href="javascript:void(0);" alt="Z" onclick="document.getElementById('inputField').value += 'Z'">
+        <area shape="rect" coords="66,165,120,218" href="javascript:void(0);" alt="X" onclick="document.getElementById('inputField').value += 'X'">
+        <area shape="rect" coords="126,165,180,218" href="javascript:void(0);" alt="C" onclick="document.getElementById('inputField').value += 'C'">
+        <area shape="rect" coords="186,165,240,218" href="javascript:void(0);" alt="V" onclick="document.getElementById('inputField').value += 'V'">
+        <area shape="rect" coords="246,165,300,218" href="javascript:void(0);" alt="B" onclick="document.getElementById('inputField').value += 'B'">
+        <area shape="rect" coords="306,165,360,218" href="javascript:void(0);" alt="N" onclick="document.getElementById('inputField').value += 'N'">
+        <area shape="rect" coords="366,165,420,218" href="javascript:void(0);" alt="M" onclick="document.getElementById('inputField').value += 'M'">
+    </map>
+</body>
+</html>
